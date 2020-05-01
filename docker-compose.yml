@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  python-api-builder:
+    image: openapitools/openapi-generator-cli
+    volumes:
+      - ./krak-openapi:/local/input
+      - ./krak-python:/local/output
+    command: generate -i /local/input/openapi.yml -g python -o /local/output/

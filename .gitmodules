@@ -1,0 +1,6 @@
+[submodule "krak-openapi"]
+	path = krak-openapi
+	url = https://github.com/yetisir/krak-openapi.git
+[submodule "krak-python"]
+	path = krak-python
+	url = https://github.com/yetisir/krak-python.git
