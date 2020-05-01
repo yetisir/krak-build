@@ -2,7 +2,7 @@ version: '3'
 
 services:
   python-api-builder:
-    image: openapitools/openapi-generator-cli
+    build: .
     volumes:
       - ./krak-openapi:/local/input
       - ./krak-python:/local/output
